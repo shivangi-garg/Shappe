@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.shappe.shappe.Signin">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editUsername"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:hint="@string/hint"
+        android:textColor="@color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="34sp"
+        app:met_baseColor="@color/white"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/white"
+        app:met_singleLineEllipsis="true" android:layout_marginStart="10dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editUsername"
+        android:hint="@string/hint4"
+        android:textColor="@color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="34sp"
+        app:met_baseColor="@color/white"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/white"
+        app:met_singleLineEllipsis="true" android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/sign"
+        android:text="@string/signin"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/editPassword" android:layout_marginStart="25dp" />
+
+</RelativeLayout>
+

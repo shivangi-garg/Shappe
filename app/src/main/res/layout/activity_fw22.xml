@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.fw22">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i22"
+
+            android:onClick="openi22"
+            />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="BICYCLE CRUNCHES"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="
+       Lie on the floor with your hands behind your ears.Raise your knees and close your right elbow towards your left knee, then close your leftelbow towards your right knee. Repeat the exercise.
+            "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.fw6">
+
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i6"
+
+            android:onClick="openi6"
+            />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="WALL SIT"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Name"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="
+        Start with your back against the wall, them slide down until your knees are at a 90 degree angle.
+
+        Keep your back against the wall with your hands and arms away from your legs.Hold the position.
+
+        The exercise is to strengthen the quadriceps muscles.
+            "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>

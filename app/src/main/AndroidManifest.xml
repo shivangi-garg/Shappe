@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shappe.shappe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signin" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Choose" />
+        <activity android:name=".GridLayout" />
+        <activity android:name=".GridLayout2" />
+        <activity
+            android:name=".WorkoutLayout"
+            android:label="@string/title_activity_workout_layout"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FoodLayout" />
+        <activity android:name=".ClassicWorkout" />
+        <activity android:name=".BMI" />
+        <activity android:name=".FullWorkout" />
+        <activity android:name=".QuizPsy" />
+        <activity android:name=".Popup" />
+        <activity android:name=".CalorieCounter" />
+        <activity android:name=".anxq1" />
+        <activity android:name=".depq1" />
+        <activity android:name=".ocdq1" />
+        <activity android:name=".Add" />
+        <activity android:name=".whitemusic" />
+        <activity android:name=".Doctor"></activity>
+        <activity android:name=".fw1"></activity>
+        <activity android:name=".fw2"></activity>
+        <activity android:name=".fw3"></activity>
+        <activity android:name=".fw4"></activity>
+        <activity android:name=".fw5"></activity>
+        <activity android:name=".fw6"></activity>
+        <activity android:name=".fw7"></activity>
+        <activity android:name=".fw8"></activity>
+        <activity android:name=".fw9"></activity>
+        <activity android:name=".fw10"></activity>
+        <activity android:name=".fw11"></activity>
+        <activity android:name=".fw12"></activity>
+        <activity android:name=".fw17"></activity>
+        <activity android:name=".fw18"></activity>
+        <activity android:name=".fw19"></activity>
+        <activity android:name=".fw20"></activity>
+        <activity android:name=".fw22"></activity>
+        <activity android:name=".fw30"></activity>
+        <activity android:name=".fw31"></activity>
+        <activity android:name=".fw33"></activity>
+        <activity android:name=".fw34"></activity>
+        <activity android:name=".fw35"></activity>
+        <activity android:name=".fw36"></activity>
+        <activity android:name=".fw37"></activity>
+        <activity android:name=".fw40"></activity>
+        <activity android:name=".fw41"></activity>
+        <activity android:name=".fw42"></activity>
+        <activity android:name=".fw44"></activity>
+    </application>
+
+</manifest>

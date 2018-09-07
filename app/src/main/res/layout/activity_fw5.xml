@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.fw5">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i5"
+
+            android:onClick="openi5"
+            />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="LEFT LUNGE KNEE HOPS"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="
+       Stand straight up. Then step your left leg back and lower your body.
+
+       When you come up,raise your left knee as high as you can.
+
+       Go back to the start position, and repeat the exercise.
+            "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>

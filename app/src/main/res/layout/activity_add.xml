@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.Add">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="You can add food item along with its measure and calorie!"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/food"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/measure"
+        />
+
+
+    <EditText
+        android:id="@+id/input3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/calorie"
+       />
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_below="@id/input3"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/add"/>
+    <Button
+    android:id="@+id/goback"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="13sp"
+    android:layout_below="@id/input3"
+    android:textColor="@color/white"
+    android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/goback"/>
+</LinearLayout>

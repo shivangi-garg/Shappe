@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.fw36">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/i36"
+
+            android:onClick="openi36"
+            />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="DECLINE PUSH-UPS"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginLeft="00dp"
+            android:fontFamily="BOLD"
+            android:gravity="center"
+            android:text="
+            Start on all fours with your knees under your butt and your hands under your shoulders.
+
+            Then elevate your feet on a chair or bench, and push your body up and down mainly using your arm strength.
+
+            Remember to keep your body straight.
+       "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.Doctor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+         <TextView
+            android:id="@+id/textGrid2"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:text="@string/testi"
+            android:textColor="@color/black"
+            android:textSize="44sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:text="Biochemistry ( since your app takes into consideration the formation, release and function of different biochemicals , and the biochemistry of the body during, with and without exercise )
+1) Dr. Anissa Atif Mirza
+Additional Professor and Head
+anissa.bchem@aiimsrishikesh.edu.in
+
+2) Dr. Manisha Naithani
+Additional Professor
+manisha.bchem@aiimsrishikesh.edu.in
+
+Cardio-thoracic ( since the effect of exercises on heart and lungs and body circulation and oxygen delivery need to be known for making of an exercise or health app )
+1) Dr.Shashikant V. Additional Professor and head
+shkant.ctvs@aiimsrishikesh.edu.in
+
+2) Dr. Anshuman Darbari
+Associate Professor
+anshuman.ctvs@aiimsrishikesh.edu.in
+
+Cardiology ( same as cardiothoracic )
+1) Dr. Bhanu Duggal
+Professor and Head
+bhanu.cardio@aiimsrishikesh.edu.in
+
+2) Dr. Barun Kumar
+Assistant Professor
+barun.cardio@aiimsrishikesh.edu.in
+
+Community and family medicine ( health of a community starts with health seeking behaviour of an individual )
+1) Dr. Surekha Kishore
+Dean(Academics), Professor and Head
+surekha.cfm@aiimsrishikesh.edu.in
+
+2) Dr. Vartika Saxena
+Professor
+vartika.cfm@aiimsrishikesh.edu.in
+
+3) Dr. Ranjeeta Kumari
+Associate Professor
+ranjeeta.cfm@aiimsrishikesh.edu.in
+
+Gastroenterology ( the effect of proper diet, the minutes of digestion and assimilation and the nutrient needs need to be known while developing a health app to take those variables under consideration )
+1) Dr. Rohit Gupta
+Assistant Professor(and officiating head)
+rohit.gastro@aiimsrishikesh.edu.in
+
+General medicine ( deals with general and overall health of individuals, including early signs and basic treatment of and health considerations in conditions like fatigue, breathlessness, anaemia etc )
+1) Dr. Minakshi Dhar
+Associate Professor and Officiating Head
+minakshi.med@aiimsrishikesh.edu.in
+
+2) Dr. Ravi Kant
+Associate Professor
+ravi.med@aiimsrishikesh.edu.in
+
+3) Dr. Venkatesh S Pai
+Assistant Professor
+pai.med@aiimsrishikesh.edu.in
+
+Orthopaedics ( sports medicine and injuries come under this deptt )
+1) Dr. Shobha S. Arora
+Professor and Head
+shobha.orth@aiimsrishikesh.edu.in
+
+2) Dr. Quamar Azam
+Professor 
+----
+
+3) Dr. Pankaj Kandwal
+Additional Professor
+pankaj.orth@aiimsrishikesh.edu.in
+
+Paediatrics(since your app targets all age groups )
+1) Dr. Swathi Chacham
+Additional Professor and Head
+swathi.ped@aiimsrishikesh.edu.in
+
+2) Dr. Prasant Kumar Verma
+Associate Professor
+-----
+
+3) Dr. Kriti Mohan
+Assistant Professor
+kriti.ped@aiimsrishikesh.edu.in
+
+Physical medicine and rehabilitation ( this was the deptt that taught you those 4-5 exercises for back muscles strengthening, toh exercises come under this )
+1) Dr. Raj Kumar Yadav
+Assistant Professor and Officiating Head
+raj.pmr@aiimsrishikesh.edu.in
+
+Physiology ( since the knowledge of normal healthy functioning of all the systems and organs of a human body , and the effect on it during, before and after exercise and dieting need to be known while developing a health app )
+1) Dr. Latika Mohan
+Professor and Head
+latika.physio@aiimsrishikesh.edu.in
+
+2) Dr. Prashant M Patil
+Professor
+prashant.physio@aiimsrishikesh.edu.in
+
+3) Dr. Rajesh Kathrotia
+Associate Professor
+rajesh.physio@aiimsrishikesh.edu.in
+
+Pulmonary medicine (same as cardiothoracic)
+1) Dr. Girish Sindhwani
+Professor and Head
+----
+
+2) Dr. Ruchi Dua
+Associate Professor
+ruchi.pulm@aiimsrishikesh.edu.in
+
+3) Dr. Mayank Mishra
+Associate Professor
+mayank.pulm@aiimsrishikesh.edu.in
+
+Psychiatry ( as exercise is known to have a positive effect in ailments like depression, ADHD(attention deficit hyperkinetic disorder), addiction withdrawal etc )
+1) Dr. Anindya Das
+Associate Professor
+anindya.psyc@aiimsrishikesh.edu.in
+
+2) Dr. Vishal Dhiman
+Associate Professor
+-----
+
+3) Dr. Vikram Singh Rawat
+Assistant Professor
+vikram.psyc@aiimsrishikesh.edu.in"/>
+
+    </RelativeLayout>
+
+</ScrollView>

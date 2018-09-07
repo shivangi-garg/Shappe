@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.shappe.shappe.Choose">
+
+    <TextView
+        android:id="@+id/intro1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="33dp"
+        android:gravity="center_horizontal"
+        android:text="@string/intro1"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="4dp"
+        android:layout_above="@+id/intro2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/rect"
+        android:contentDescription="@string/food"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/intro2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnphysical"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="96dp"
+        android:gravity="center_horizontal"
+        android:text="@string/intro2"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnphysical"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="@string/physical"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnpsychological"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/sign"
+        android:text="@string/psychological"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shappe.shappe.fw1"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/i1"
+
+        android:onClick="openi1"
+        />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:fontFamily="BOLD"
+        android:gravity="center"
+        android:text="SPIDERMAN PUSH-UPS"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:fontFamily="BOLD"
+        android:gravity="center"
+        android:text="
+        Start in the regular push-up position.When lowering your torso downward, bend and lift one leg to the side.
+
+Then return to the start position and switch to the other leg.
+
+Remember to keep your body straight."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</RelativeLayout>
