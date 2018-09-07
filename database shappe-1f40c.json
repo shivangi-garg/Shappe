@@ -1,0 +1,244 @@
+{
+  "Food" : [ null, {
+    "Cal" : "75",
+    "Measure" : "Slice",
+    "Name" : "Bread Toasted"
+  }, {
+    "Cal" : "100",
+    "Measure" : "Cup",
+    "Name" : "Milk(Cereals)"
+  }, {
+    "Cal" : "70",
+    "Measure" : "Small Cup",
+    "Name" : "Cow milk"
+  }, {
+    "Cal" : "105.25",
+    "Measure" : "Small Cup",
+    "Name" : "Buffalo milk"
+  }, {
+    "Cal" : "45",
+    "Measure" : "Small Cup",
+    "Name" : "Tea "
+  }, {
+    "Cal" : "12",
+    "Measure" : "Small Cup",
+    "Name" : "Black Tea"
+  }, {
+    "Cal" : "70",
+    "Measure" : "Small Cup",
+    "Name" : "Coffee"
+  }, {
+    "Cal" : "38",
+    "Measure" : "Small Cup",
+    "Name" : "Butter milk"
+  }, {
+    "Cal" : "200",
+    "Measure" : "Small Cup",
+    "Name" : "Ice Cream"
+  }, {
+    "Cal" : "56",
+    "Measure" : "Number",
+    "Name" : "Apple"
+  }, {
+    "Cal" : "153",
+    "Measure" : "Number",
+    "Name" : "Banana"
+  }, {
+    "Cal" : "45",
+    "Measure" : "Small Cup",
+    "Name" : "Grapes"
+  }, {
+    "Cal" : "66",
+    "Measure" : "Number",
+    "Name" : "Guava"
+  }, {
+    "Cal" : "66",
+    "Measure" : "Number",
+    "Name" : "Guava"
+  }, {
+    "Cal" : "162",
+    "Measure" : "Number",
+    "Name" : "Mango"
+  }, {
+    "Cal" : "70",
+    "Measure" : "Number",
+    "Name" : "Orange"
+  }, {
+    "Cal" : "15",
+    "Measure" : "Piece",
+    "Name" : "Papaya"
+  }, {
+    "Cal" : "51",
+    "Measure" : "Number",
+    "Name" : "Pear"
+  }, {
+    "Cal" : "40",
+    "Measure" : "Piece",
+    "Name" : "Pineapple"
+  }, {
+    "Cal" : "16",
+    "Measure" : "Slice",
+    "Name" : "Watermelon"
+  }, {
+    "Cal" : "120",
+    "Measure" : "Number",
+    "Name" : "Groundnut Biscuits"
+  }, {
+    "Cal" : "55",
+    "Measure" : "Number",
+    "Name" : "Nut Biscuits"
+  }, {
+    "Cal" : "260",
+    "Measure" : "Number",
+    "Name" : "Plain Paratha"
+  }, {
+    "Cal" : "162",
+    "Measure" : "Number",
+    "Name" : "Potato Paratha"
+  }, {
+    "Cal" : "75",
+    "Measure" : "Number",
+    "Name" : "Tandoori Roti"
+  }, {
+    "Cal" : "100",
+    "Measure" : "Number",
+    "Name" : "Plain Roti"
+  }, {
+    "Cal" : "107",
+    "Measure" : "Number",
+    "Name" : "Puri"
+  }, {
+    "Cal" : "60",
+    "Measure" : "Slice",
+    "Name" : "Atta Bread"
+  }, {
+    "Cal" : "318",
+    "Measure" : "Katori",
+    "Name" : "Veg Briyani"
+  }, {
+    "Cal" : "333",
+    "Measure" : "Katori",
+    "Name" : "Fried Rice"
+  }, {
+    "Cal" : "46",
+    "Measure" : "Katori",
+    "Name" : "Chole subzi"
+  }, {
+    "Cal" : "242",
+    "Measure" : "Katori",
+    "Name" : "Aloo Muttar"
+  }, {
+    "Cal" : "170",
+    "Measure" : "Katori",
+    "Name" : "Paneer Subzi"
+  }, {
+    "Cal" : "17",
+    "Measure" : "One Teaspoon",
+    "Name" : "Mint Chutney"
+  }, {
+    "Cal" : "155",
+    "Measure" : "One Teaspoon",
+    "Name" : "Tomato Chutney"
+  }, {
+    "Cal" : "729",
+    "Measure" : "Katori",
+    "Name" : "Channa Dhal"
+  }, {
+    "Cal" : "125",
+    "Measure" : "Katori",
+    "Name" : "Green Gram Dal"
+  }, {
+    "Cal" : "203",
+    "Measure" : "Katori",
+    "Name" : "Plain Dhal"
+  }, {
+    "Cal" : "658",
+    "Measure" : "Katori",
+    "Name" : "Rajmah"
+  }, {
+    "Cal" : "703",
+    "Measure" : "Katori",
+    "Name" : "Red Gram Dhal"
+  }, {
+    "Cal" : "164",
+    "Measure" : "Katori",
+    "Name" : "Boondhi Raita"
+  }, {
+    "Cal" : "100",
+    "Measure" : "Katori",
+    "Name" : "Carrot Raita"
+  }, {
+    "Cal" : "188",
+    "Measure" : "Katori",
+    "Name" : "Cucumber Raita"
+  }, {
+    "Cal" : "38",
+    "Measure" : "Katori",
+    "Name" : "Salad"
+  }, {
+    "Cal" : "125",
+    "Measure" : "Number",
+    "Name" : "Barfi"
+  }, {
+    "Cal" : "150",
+    "Measure" : "Piece",
+    "Name" : "Chikki"
+  }, {
+    "Cal" : "54",
+    "Measure" : "Number",
+    "Name" : "Coconut Laddu"
+  }, {
+    "Cal" : "185",
+    "Measure" : "Number",
+    "Name" : "Halwa(Gajar)"
+  }, {
+    "Cal" : "75",
+    "Measure" : "Number",
+    "Name" : "Halwa(Suji)"
+  }, {
+    "Cal" : "130",
+    "Measure" : "Number",
+    "Name" : "Srikhand"
+  }, {
+    "Cal" : "320",
+    "Measure" : "Number",
+    "Name" : "Bhoondi Laddu"
+  }, {
+    "Cal" : "139",
+    "Measure" : "Piece",
+    "Name" : "Fruit Cake"
+  }, {
+    "Cal" : "305",
+    "Measure" : "Number",
+    "Name" : "Cup Cake"
+  }, {
+    "Cal" : "41",
+    "Measure" : "Glass",
+    "Name" : "Cold Drink"
+  }, {
+    "Cal" : "101",
+    "Measure" : "Katori",
+    "Name" : "Sweat Corn Soup"
+  }, {
+    "Cal" : "72",
+    "Measure" : "Katori",
+    "Name" : "Tomato Soup"
+  } ],
+  "User" : {
+    "Shambhavi" : {
+      "Age" : "21",
+      "Gender" : "F",
+      "Password" : "1234"
+    },
+    "Shivangi" : {
+      "age" : "21",
+      "gender" : "F",
+      "password" : "1234"
+    },
+    "Shubhangi" : {
+      "Age" : "21",
+      "Gender" : "F",
+      "Password" : "1234"
+    }
+  }
+}
